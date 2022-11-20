@@ -29,7 +29,7 @@ from transformers.utils import (
     RevisionNotFoundError,
     TensorType,
     add_end_docstrings,
-    cached_path,
+    HF_MODULES_CACHE,
     copy_func,
     get_file_from_repo,
     hf_bucket_url,
